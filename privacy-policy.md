@@ -33,6 +33,11 @@ Only in Atlassian's cloud: Forge hosted storage and your Jira site, with the sam
 Jira site. The App does not transfer data to us or to any third party. Atlassian is the only
 sub-processor (see the [Atlassian Privacy Policy](https://www.atlassian.com/legal/privacy-policy)).
 
+**Data residency.** All the data listed in section 2 is in-scope End-User Data and is kept only in Forge
+hosted storage, which follows the data residency location of your Jira site (for example EU, Germany, US,
+Australia, Canada, India, Japan, Singapore, South Korea, Switzerland or the United Kingdom) and moves with
+it when an administrator changes the location. There is no out-of-scope End-User Data.
+
 ## 4. Retention
 
 - Events are kept only until they are applied to Jira.

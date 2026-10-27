@@ -18,4 +18,5 @@ Commits, branches and merge requests from your **self-managed GitLab** and revis
 
 - [User guide](user-guide.md): setup, how work is linked to issues, troubleshooting, data and privacy.
 - [Support](support.md)
-- [Privacy policy](privacy-policy.md), [Data Processing Addendum](dpa.md), [Terms](terms.md)
+- [Privacy policy](privacy-policy.md), [Data Processing Addendum](dpa.md), [Terms](terms.md),
+  [Security](security.md)
