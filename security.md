@@ -19,4 +19,12 @@ the issue is fixed.
 - The Subversion hook script sends the token to curl on standard input (never on the command line), keeps
   its configuration readable only by the server account on Linux, and never changes existing hooks.
 - Every change is covered by automated tests (unit, contract tests with real GitLab and Subversion
-  payloads, chaos and mutation testing) before release.
+  payloads, chaos and mutation testing) before release, and released only when `npm audit` reports no
+  known vulnerabilities in the app's runtime dependencies.
+
+**Incidents and vulnerabilities**
+
+We follow a written incident response plan based on Atlassian's guidelines. In case of a security
+incident we notify Atlassian within 24 hours and affected customers within 72 hours. Vulnerabilities
+are fixed within Atlassian's timeframes for Cloud apps: critical 10 days, high 4 weeks, medium 12 weeks,
+low 25 weeks.
