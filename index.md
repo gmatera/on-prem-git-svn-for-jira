@@ -20,3 +20,9 @@ Commits, branches and merge requests from your **self-managed GitLab** and revis
 - [Support](support.md)
 - [Privacy policy](privacy-policy.md), [Data Processing Addendum](dpa.md), [Terms](terms.md),
   [Security](security.md)
+
+## Guides
+
+- [Connect self-managed GitLab to Jira Cloud without opening your firewall](guides/gitlab-self-managed-jira-cloud-behind-firewall.md)
+- [Subversion (SVN) in Jira Cloud: replacing FishEye](guides/subversion-svn-jira-cloud-fisheye-replacement.md)
+- [Moving Jira Data Center to Cloud while keeping GitLab and SVN on-premises](guides/jira-data-center-to-cloud-with-on-prem-gitlab-svn.md)
