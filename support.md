@@ -1,6 +1,6 @@
 # Support
 
-Write to **sassimaterasas@gmail.com**, in English or Italian. We aim to answer within one business day
+Write to **support@steadyseam.com**, in English or Italian. We aim to answer within one business day
 (Monday to Friday, 9:00-18:00 Central European Time).
 
 To help us answer quickly, please include:

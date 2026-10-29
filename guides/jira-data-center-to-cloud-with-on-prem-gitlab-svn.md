@@ -85,4 +85,4 @@ network. Three things follow:
 
 *This guide is written by the developers of **On-Prem Git & SVN for Jira Cloud**, a Runs on Atlassian app
 that brings self-managed GitLab and Subversion into the Jira Development panel without opening your
-firewall. Free for up to 10 users. [Learn more](https://gmatera.github.io/on-prem-git-svn-for-jira/) · [User guide](../user-guide.md)*
+firewall. Free for up to 10 users. [Learn more](https://steadyseam.com/on-prem-git-svn-for-jira/) · [User guide](../user-guide.md)*

@@ -1,6 +1,6 @@
 # Data Processing Addendum: On-Prem Git & SVN for Jira Cloud
 
-*Last updated: 27 October 2026.*
+*Last updated: 29 October 2026.*
 
 This Data Processing Addendum ("DPA") forms part of the agreement under which the customer ("Customer")
 uses the Atlassian Marketplace app **On-Prem Git & SVN for Jira Cloud** (the "App") provided by **Sasso di
@@ -54,4 +54,4 @@ Jira site. The Provider does not transfer it elsewhere.
 
 ## 6. Contact
 
-sassimaterasas@gmail.com
+support@steadyseam.com

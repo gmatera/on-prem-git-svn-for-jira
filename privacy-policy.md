@@ -1,10 +1,10 @@
 # Privacy Policy: On-Prem Git & SVN for Jira Cloud
 
-*Last updated: 27 October 2026.*
+*Last updated: 29 October 2026.*
 
 This policy explains what data the Atlassian Marketplace app **On-Prem Git & SVN for Jira Cloud** (the
 "App") processes, why, where it is kept and for how long. The App is provided by **Sasso di Matera Giuseppe
-S.a.s.** (Via Clefi 2, 20146 Milano (MI), Italy, VAT IT13043470965), "we" in this policy. Contact: **sassimaterasas@gmail.com**.
+S.a.s.** (Via Clefi 2, 20146 Milano (MI), Italy, VAT IT13043470965), "we" in this policy. Contact: **support@steadyseam.com**.
 
 ## 1. How the App works
 
@@ -65,7 +65,7 @@ remove the data at its source and in Jira; we will assist on request.
 
 When you contact our support, we use your name, e-mail address and the content of your message only to
 answer you, and we keep them for up to 24 months after the last exchange. You can ask us to access,
-correct or delete them, or object to their use, by writing to sassimaterasas@gmail.com. You can also
+correct or delete them, or object to their use, by writing to support@steadyseam.com. You can also
 lodge a complaint with your data protection authority (in Italy, the Garante per la protezione dei dati
 personali).
 

@@ -1,6 +1,6 @@
 # Security
 
-**Reporting a vulnerability.** Write to **sassimaterasas@gmail.com** with the details; please do not disclose it publicly
+**Reporting a vulnerability.** Write to **support@steadyseam.com** with the details; please do not disclose it publicly
 before we have answered. We acknowledge reports within two business days and keep you informed until
 the issue is fixed.
 
