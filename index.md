@@ -17,7 +17,7 @@ Commits, branches and merge requests from your **self-managed GitLab** and revis
 ## Documentation
 
 - [User guide](user-guide.md): setup, how work is linked to issues, troubleshooting, data and privacy.
-- [Support](https://steadyseam.com/support.html)
+- [Support](https://steadyseam.com/support.html#on-prem-git-svn-for-jira)
 - [Privacy policy](privacy-policy.md), [Data Processing Addendum](dpa.md), [Terms](terms.md),
   [Security](security.md)
 
