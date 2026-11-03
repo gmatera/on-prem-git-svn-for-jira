@@ -30,7 +30,7 @@ cloud.
    - keep **Enable SSL verification** selected and click **Add system hook**.
 4. In GitLab go to **Admin area › Settings › Network › Performance optimization** and set
    **Push event hooks limit** to `100`. With the default value (3), GitLab sends no details for a push
-   that updates more than 3 branches or tags at once.
+   that updates more than 3 branches or tags at once. GitLab applies the new value within about a minute.
 5. Click **Test** next to the hook in GitLab. The connector page turns green within a few seconds.
 
 ## Connect Subversion (about 5 minutes per server)
@@ -93,11 +93,13 @@ in Jira.
   **Needs attention**. The next push to each branch updates Jira.
 - **SVN revisions that were never received.** Revision numbers are consecutive, so the connector notices a
   missing one (for example if the hook was removed for a while) and shows it under **Needs attention** with
-  the command to send it again.
+  the command to send it again. When the revisions arrive, the report disappears by itself within 5 minutes
+  (a long range reported as a single gap of more than 300 revisions has to be dismissed by hand).
 - **Very large SVN revisions** (tens of thousands of changed files) are sent without the list of files: the
   revision appears in Jira, but the branches it touched are not updated by that revision.
-- **Merge request author.** GitLab events only say who performed each action, so the author is shown only
-  when it is certain. SVN shows the user name of the revision's author.
+- **Authors.** Jira links commits to people by e-mail address: a GitLab commit shows the Jira user with the
+  same e-mail as its author. Subversion only knows user names and GitLab events do not include the e-mail of
+  merge request authors, so Jira shows these authors with a generic avatar.
 - **Keys of issues that do not exist** (for example `UTF-8` written in a commit message) are ignored by
   Jira.
 - **Renaming an SVN repository folder** makes it a new repository in Jira (the old one keeps its history).
@@ -180,7 +182,8 @@ servers, then run the `install` command again so every repository gets the new c
 - **Retention.**
   - Events are kept only until they are applied to Jira.
   - Activity history is kept for 14 days.
-  - Problem records are kept until you dismiss them or retry them.
+  - Problem records are kept until you dismiss them or retry them; reports of missing SVN revisions are
+    closed automatically when the revisions arrive.
   - The last applied state of each branch and merge request is kept for 90 days.
   - To detect missing pushes and revisions, the connector keeps for 2 days a marker for each one it
     expects, and for 365 days the number of the last revision received from each SVN repository.
