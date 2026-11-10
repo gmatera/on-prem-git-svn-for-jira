@@ -1,6 +1,6 @@
 # Data Processing Addendum: On-Prem Git & SVN for Jira Cloud
 
-*Last updated: 29 October 2026.*
+*Last updated: 10 November 2026.*
 
 This Data Processing Addendum ("DPA") forms part of the agreement under which the customer ("Customer")
 uses the Atlassian Marketplace app **On-Prem Git & SVN for Jira Cloud** (the "App") provided by **Sasso di
@@ -17,8 +17,9 @@ storing for a limited time and transmitting that information to Jira, only to pr
 ## 2. Personal data and data subjects
 
 - **Data subjects:** people who commit, push or open merge requests in the Customer's repositories.
-- **Personal data:** names and, for GitLab, e-mail addresses of commit authors; SVN user names; GitLab
-  user names; any personal data the Customer's users write in commit messages, branch names or merge
+- **Personal data:** names and, for GitLab, e-mail addresses of commit authors; SVN user names and, when
+  a user name is an e-mail address or the Customer sets `AUTHOR_EMAIL`, the authors' e-mail addresses;
+  GitLab user names; any personal data the Customer's users write in commit messages, branch names or merge
   request titles.
 - No special categories of personal data are intended to be processed.
 

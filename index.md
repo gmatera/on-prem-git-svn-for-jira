@@ -17,6 +17,13 @@ Commits, branches and merge requests from your **self-managed GitLab** and revis
 **[Get it on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/3886630403/on-prem-git-svn-for-jira-cloud?utm_source=site&utm_medium=app-page&utm_campaign=on-prem-git-svn)**:
 free for up to 10 users.
 
+## See it in two minutes
+
+<video controls preload="metadata" width="100%">
+  <source src="assets/demo.mp4" type="video/mp4">
+  <a href="assets/demo.mp4">Watch the demo (MP4, 5 MB)</a>
+</video>
+
 ## Documentation
 
 - [User guide](user-guide.md): setup, how work is linked to issues, troubleshooting, data and privacy.

@@ -19,8 +19,8 @@ the issue is fixed.
 - The Subversion hook script sends the token to curl on standard input (never on the command line), keeps
   its configuration readable only by the server account on Linux, and never changes existing hooks.
 - Every change is covered by automated tests (unit, contract tests with real GitLab and Subversion
-  payloads, chaos and mutation testing) before release, and released only when `npm audit` reports no
-  known vulnerabilities in the app's runtime dependencies.
+  payloads, chaos and mutation testing) before release, and released only after reviewing `npm audit`:
+  no known vulnerability may remain in code the app runs.
 
 **Incidents and vulnerabilities**
 

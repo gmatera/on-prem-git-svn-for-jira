@@ -46,6 +46,8 @@ Jira unavailable) are sent automatically after the next commit.
    repository folder name): it is used for the links shown in Jira, and the installation does not start
    until it is set. With VisualSVN Server you can also set `REVISION_URL` to
    `https://your-server/!/#{repo}/commit/r{rev}` so links open the revision in VisualSVN's web interface.
+   If your Subversion user names match your e-mail addresses, set `AUTHOR_EMAIL`, for example
+   `{user}@example.com`, so that Jira shows the person behind each revision (see *Authors* below).
 3. **Save the script in the same folder:** `connector-hook.sh` on Linux and Unix, `connector-hook.ps1` on
    Windows. Both are shown on the connector page.
 4. **Install it on your repositories with one command.**
@@ -98,8 +100,12 @@ in Jira.
 - **Very large SVN revisions** (tens of thousands of changed files) are sent without the list of files: the
   revision appears in Jira, but the branches it touched are not updated by that revision.
 - **Authors.** Jira links commits to people by e-mail address: a GitLab commit shows the Jira user with the
-  same e-mail as its author. Subversion only knows user names and GitLab events do not include the e-mail of
-  merge request authors, so Jira shows these authors with a generic avatar.
+  same e-mail as its author. Subversion only knows user names: a user name that already is an e-mail
+  address is used as such; otherwise set `AUTHOR_EMAIL` in `connector.conf` (for example
+  `{user}@example.com`; a Windows `DOMAIN\` prefix is removed and the name is lowercased) and install the
+  script again to copy the updated file into each repository (requires script version 1.2.0, shown by
+  `status`). Without an e-mail address, and for GitLab merge request authors (GitLab events do not include
+  their e-mail), Jira shows a generic avatar.
 - **Keys of issues that do not exist** (for example `UTF-8` written in a commit message) are ignored by
   Jira.
 - **Renaming an SVN repository folder** makes it a new repository in Jira (the old one keeps its history).
