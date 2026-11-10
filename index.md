@@ -19,7 +19,7 @@ free for up to 10 users.
 
 ## See it in two minutes
 
-<video controls preload="metadata" width="100%">
+<video controls preload="metadata" width="100%" poster="assets/demo-poster.jpg">
   <source src="assets/demo.mp4" type="video/mp4">
   <a href="assets/demo.mp4">Watch the demo (MP4, 5 MB)</a>
 </video>
