@@ -14,6 +14,9 @@ Commits, branches and merge requests from your **self-managed GitLab** and revis
 - **Five minutes per server.** One system hook for the whole GitLab instance; one command installs the SVN
   hook on every repository of a server (Linux or Windows, VisualSVN Server included).
 
+**[Get it on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/3886630403/on-prem-git-svn-for-jira-cloud?utm_source=site&utm_medium=app-page&utm_campaign=on-prem-git-svn)**:
+free for up to 10 users.
+
 ## Documentation
 
 - [User guide](user-guide.md): setup, how work is linked to issues, troubleshooting, data and privacy.
