@@ -27,6 +27,7 @@ free for up to 10 users.
 ## Documentation
 
 - [User guide](user-guide.md): setup, how work is linked to issues, troubleshooting, data and privacy.
+- [One-pager (PDF)](assets/on-prem-git-svn-for-jira-cloud.pdf): features, use cases and requirements on one page.
 - [Support](https://steadyseam.com/support.html#on-prem-git-svn-for-jira)
 - [Privacy policy](privacy-policy.md), [Data Processing Addendum](dpa.md), [Terms](terms.md),
   [Security](security.md)
